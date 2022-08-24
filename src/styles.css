@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: "Ubuntu Condensed", sans-serif;
+  background-color: #efefef;
+}
