@@ -168,6 +168,7 @@ export default function App() {
                             height: "50px",
                             objectFit: "contain"
                           }}
+                          loading="lazy"
                           alt={title}
                         />
                         <h4>{title}</h4>
