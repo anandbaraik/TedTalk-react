@@ -152,6 +152,35 @@ export default function App() {
           </button>
         ))}
       </div>
+        <hr style={{borderStyle: "dashed", color: "#a21caf", borderTop:"1px"}}/>
+        <div>
+          <ul>
+            {
+              TedTalkDb[category].map(({title, description, url, img}, index) => (
+                <li key={index}>
+                  <a href={url}
+                    target="_blank"
+                    rel="no-referrer">
+                    <div>
+                        <img src={img}
+                          style={{
+                            width:"80px",
+                            height: "50px",
+                            objectFit: "contain"
+                          }}
+                          alt={title}
+                        />
+                        <h4>{title}</h4>
+                        <p title={description}>
+                          {`${description.substring(0,160)}...`}
+                        </p>
+                    </div>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
     </div>
   );
 }
