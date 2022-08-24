@@ -154,10 +154,20 @@ export default function App() {
       </div>
         <hr style={{borderStyle: "dashed", color: "#a21caf", borderTop:"1px"}}/>
         <div>
-          <ul>
+          <ul
+          style={{
+            padding: "0"
+          }}>
             {
               TedTalkDb[category].map(({title, description, url, img}, index) => (
-                <li key={index}>
+                <li key={index}
+                  style={{
+                    border: "1px solid #d1d5db",
+                    listStyle: "none",
+                    borderRadius: "0.4rem",
+                    padding: "0.5rem",
+                    margin: "0.5rem 0rem"
+              }}>
                   <a href={url}
                     target="_blank"
                     rel="no-referrer">
@@ -166,7 +176,8 @@ export default function App() {
                           style={{
                             width:"80px",
                             height: "50px",
-                            objectFit: "contain"
+                            objectFit: "contain",
+                            borderRadius: "0.5rem"
                           }}
                           loading="lazy"
                           alt={title}
