@@ -11,7 +11,8 @@ export default function App() {
         url:
           "https://www.ted.com/talks/rocio_lorenzo_how_diversity_makes_teams_more_innovative?referrer=playlist-how_to_innovate_for_collaboration_and_success&autoplay=true",
         img:
-          "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/40a24cd9-db46-4572-a5b3-4b06561991cb/RocioLorenzo_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640"
+          "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/40a24cd9-db46-4572-a5b3-4b06561991cb/RocioLorenzo_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
+        rating: "5/5"
       },
       {
         title: "Rethink to stop cyberbullying",
@@ -20,7 +21,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/54c0cf8f-32fd-4829-ac9a-ce7ba12a763f/TrishaPrabhu_2017I-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/trisha_prabhu_rethink_to_stop_cyberbullying?referrer=playlist-a_playlist_from_srk_to_you&autoplay=true"
+          "https://www.ted.com/talks/trisha_prabhu_rethink_to_stop_cyberbullying?referrer=playlist-a_playlist_from_srk_to_you&autoplay=true",
+          rating: "4/5"
       },
       {
         title: "The nerd's guide to learning everything online",
@@ -29,7 +31,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/250fb6e06aeb6cbd9735f48e5ea148143fe6140b_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/john_green_the_nerd_s_guide_to_learning_everything_online?referrer=playlist-staying_in_geek_out&autoplay=true"
+          "https://www.ted.com/talks/john_green_the_nerd_s_guide_to_learning_everything_online?referrer=playlist-staying_in_geek_out&autoplay=true",
+          rating: "4.5/5"
       },
       {
         title: "Tracking our online trackers",
@@ -38,7 +41,8 @@ export default function App() {
         description:
           "As you surf the Web, information is being collected about you. Web tracking is not 100% evil -- personal data can make your browsing more efficient; cookies can help your favorite websites stay in business. But, says Gary Kovacs, it's your right to know what data is being collected about you. He unveils a Firefox add-",
         url:
-          "https://www.ted.com/talks/gary_kovacs_tracking_our_online_trackers?referrer=playlist-what_your_data_reveals_about_y&autoplay=true"
+          "https://www.ted.com/talks/gary_kovacs_tracking_our_online_trackers?referrer=playlist-what_your_data_reveals_about_y&autoplay=true",
+          rating: "3.6/5"
       }
     ],
     Entertainment: [
@@ -48,7 +52,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/ccdc49a1-8eb5-4e5e-b7cc-2b902811f06e/VincentMoon_2014G-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/vincent_moon_and_nana_vasconcelos_hidden_music_rituals_around_the_world?referrer=playlist-music_around_the_world&autoplay=true"
+          "https://www.ted.com/talks/vincent_moon_and_nana_vasconcelos_hidden_music_rituals_around_the_world?referrer=playlist-music_around_the_world&autoplay=true",
+          rating: "5/5"
       },
       {
         title: "A musical escape into a world of light and color",
@@ -56,7 +61,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/f1bfe36c-741c-45b8-b444-9bff8fe3785c/KakiKing_2015W-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/kaki_king_a_musical_escape_into_a_world_of_light_and_color?referrer=playlist-music_around_the_world&autoplay=true"
+          "https://www.ted.com/talks/kaki_king_a_musical_escape_into_a_world_of_light_and_color?referrer=playlist-music_around_the_world&autoplay=true",
+          rating: "4.9/5"
       },
       {
         title: "Between music and medicine",
@@ -64,7 +70,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/1f82dd4305f7f4f0ef595d8ac201b367c490b6a5_1600x1200.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/robert_gupta_between_music_and_medicine?referrer=playlist-how_music_affects_us&autoplay=true"
+          "https://www.ted.com/talks/robert_gupta_between_music_and_medicine?referrer=playlist-how_music_affects_us&autoplay=true",
+          rating: "3.9/5"
       }
     ],
     Business: [
@@ -74,7 +81,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/8e4deb30-a0f4-4816-9288-3ed186c69b89/MartinReeves_2016S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/martin_reeves_how_to_build_a_business_that_lasts_100_years?referrer=playlist-an_essential_guide_to_start_up_success&autoplay=true"
+          "https://www.ted.com/talks/martin_reeves_how_to_build_a_business_that_lasts_100_years?referrer=playlist-an_essential_guide_to_start_up_success&autoplay=true",
+          rating: "4/5"
       },
       {
         title: "Try something new for 30 days",
@@ -82,7 +90,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/424e6719-7627-40bc-ae35-1ed70a66ed2a/MattCutts_2011U-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/matt_cutts_try_something_new_for_30_days?referrer=playlist-10_guiding_principles_for_leaders&autoplay=true"
+          "https://www.ted.com/talks/matt_cutts_try_something_new_for_30_days?referrer=playlist-10_guiding_principles_for_leaders&autoplay=true",
+          rating: "3.5/5"
       },
       {
         title: "How to turn a group of strangers into a team",
@@ -90,7 +99,8 @@ export default function App() {
         img:
           "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/58997892-ff1f-4993-b47a-d6ef5c703047/AmyEdmondson_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=640",
         url:
-          "https://www.ted.com/talks/amy_edmondson_how_to_turn_a_group_of_strangers_into_a_team?referrer=playlist-how_to_boost_your_team_s_productivity&autoplay=true"
+          "https://www.ted.com/talks/amy_edmondson_how_to_turn_a_group_of_strangers_into_a_team?referrer=playlist-how_to_boost_your_team_s_productivity&autoplay=true",
+          rating: "4.6/5"
       }
     ]
   };
@@ -159,7 +169,7 @@ export default function App() {
             padding: "0"
           }}>
             {
-              TedTalkDb[category].map(({title, description, url, img}, index) => (
+              TedTalkDb[category].map(({title, description, url, img, rating}, index) => (
                 <li key={index}
                   style={{
                     border: "1px solid #d1d5db",
@@ -184,7 +194,12 @@ export default function App() {
                         <div className="card-body">
                           <h4>{title}</h4>
                           <p title={description}>
-                            {`${description.substring(0,160)}...`}
+                            {`${description.substring(0,190)}...`}
+                          </p>
+                          <p>
+                          <strong>
+                            Rating:
+                          </strong> {rating}
                           </p>
                         </div>
                     </div>
