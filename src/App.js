@@ -129,7 +129,7 @@ export default function App() {
         </span>
       </h1>
       <p style={{ marginTop: "0px" }}>
-        Checkout my favorite ted talks. Select a genre to get started
+        Checkout my favorite ted talks. Select a topic to get started
       </p>
       <div>
         {categories.map((categoryLabel, index) => (
@@ -171,21 +171,22 @@ export default function App() {
                   <a href={url}
                     target="_blank"
                     rel="no-referrer">
-                    <div>
+                    <div className="card">
                         <img src={img}
                           style={{
-                            width:"80px",
-                            height: "50px",
+                            maxWidth:"100%",
                             objectFit: "contain",
                             borderRadius: "0.5rem"
                           }}
                           loading="lazy"
                           alt={title}
                         />
-                        <h4>{title}</h4>
-                        <p title={description}>
-                          {`${description.substring(0,160)}...`}
-                        </p>
+                        <div className="card-body">
+                          <h4>{title}</h4>
+                          <p title={description}>
+                            {`${description.substring(0,160)}...`}
+                          </p>
+                        </div>
                     </div>
                   </a>
                 </li>
